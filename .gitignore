@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Buyuk / uretilebilir veri dosyalari Git'e commit edilmez.
+# Repo'yu clone eden biri "python data/generate_data.py" calistirarak
+# bunlarin hepsini kendi bilgisayarinda yeniden uretebilir.
+data/raw/*.csv
+data/*.db
+notebooks/fig_*.png
